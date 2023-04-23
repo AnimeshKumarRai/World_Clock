@@ -7,15 +7,12 @@ Simple and intuitive user interface
 Built using standard web development technologies
 
 ## Installation
-To use this clock, simply download or clone the project files from the GitHub repository:
-
-git clone https://github.com/AnimeshKumarRai/website-based-clock.git
-Then, open the index.html file in your web browser to start the clock.
 <br>
-<br>
-Alternatively, you can also view the live demo of this clock by visiting the following URL:
-https://AnimeshKumarRai.github.io/website-based-clock/
 
+You can also view this clock by visiting the following URL:
+https://animeshkumarrai.github.io/Web_Clock/
+
+<br>
 ## Usage
 To use the clock, simply open the index.html file in your web browser. The clock will automatically start and display the current time in real-time.
 
