@@ -2,7 +2,7 @@
 
 A beautiful, responsive world clock application that displays time across multiple timezones with both analog and digital views.
 
-![World Clock](https://animeshkumarrai.github.io/World_Clock)
+[World Clock](https://animeshkumarrai.github.io/World_Clock/)
 
 ## Features
 
