@@ -56,9 +56,9 @@
                     <div class="absolute top-1/2 left-0 w-4 h-1 bg-white -translate-y-1/2"></div>
                     
                     <!-- Hands -->
-                    <div class="hour-hand absolute top-1/2 left-1/2 w-1.5 h-16 md:h-20 bg-white rounded-full -translate-x-1/2 -translate-y-full origin-bottom"></div>
-                    <div class="minute-hand absolute top-1/2 left-1/2 w-1 h-24 md:h-28 bg-blue-400 rounded-full -translate-x-1/2 -translate-y-full origin-bottom"></div>
-                    <div class="second-hand absolute top-1/2 left-1/2 w-0.5 h-28 md:h-32 bg-red-500 rounded-full -translate-x-1/2 -translate-y-full origin-bottom"></div>
+                    <div class="hour-hand absolute top-1/2 left-1/2 w-1.5 h-16 md:h-20 bg-white rounded-full origin-bottom" style="transform: translate(-50%, -100%) rotate(0deg)"></div>
+                    <div class="minute-hand absolute top-1/2 left-1/2 w-1 h-24 md:h-28 bg-blue-400 rounded-full origin-bottom" style="transform: translate(-50%, -100%) rotate(0deg)"></div>
+                    <div class="second-hand absolute top-1/2 left-1/2 w-0.5 h-28 md:h-32 bg-red-500 rounded-full origin-bottom" style="transform: translate(-50%, -100%) rotate(0deg)"></div>
                 </div>
             </div>
             
@@ -218,9 +218,9 @@
                 const minuteDegrees = minutes * 6;
                 const secondDegrees = seconds * 6;
                 
-                document.querySelector('.hour-hand').style.transform = `translateX(-50%) rotate(${hourDegrees}deg)`;
-                document.querySelector('.minute-hand').style.transform = `translateX(-50%) rotate(${minuteDegrees}deg)`;
-                document.querySelector('.second-hand').style.transform = `translateX(-50%) rotate(${secondDegrees}deg)`;
+                document.querySelector('.hour-hand').style.transform = `translate(-50%, -100%) rotate(${hourDegrees}deg)`;
+                document.querySelector('.minute-hand').style.transform = `translate(-50%, -100%) rotate(${minuteDegrees}deg)`;
+                document.querySelector('.second-hand').style.transform = `translate(-50%, -100%) rotate(${secondDegrees}deg)`;
             }
 
             // Update main clock
